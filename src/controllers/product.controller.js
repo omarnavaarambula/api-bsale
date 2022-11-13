@@ -13,7 +13,7 @@ res.json(result[0])
 export const getProduct = async (req,res) => {
     const [rows] = await pool.query ("SELECT * FROM product WHERE id = ?" , [req.params.id])
     if (rows.length <= [0]) 
-    return res.status(404).json({message: 'Product dont found'})
+    return res.status(404).json({message: 'error 404 product not found :`('})
     res.json(rows[0])
 };
 
