@@ -1,6 +1,6 @@
-#API bsale
+# API bsale
 
-#Documentacion
+# Documentacion
 
 https://documentacionbsaleshop.herokuapp.com/docs/
 
@@ -11,7 +11,7 @@ https://documentacionbsaleshop.herokuapp.com/docs/
 * Thunder Client
 
 
-##Dependencias instaladas 
+## Dependencias instaladas 
  
 * npm install express
 * npm install mysql2
@@ -20,7 +20,7 @@ https://documentacionbsaleshop.herokuapp.com/docs/
 * npm install cors
 
 
-##Rutas
+## Rutas
 
 * Categorias
 
