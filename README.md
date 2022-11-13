@@ -1,10 +1,10 @@
 # API bsale
 
-# Documentacion
+## Documentacion
 
 https://documentacionbsaleshop.herokuapp.com/docs/
 
-
+## 
 * MySQL
 * Node.js
 * Express
