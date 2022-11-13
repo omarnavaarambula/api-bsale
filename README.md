@@ -1,28 +1,30 @@
 API bsale
 
+* MySQL
+* Node.js
+* Express
+* Thunder Client
 
 
+Dependencias instaladas 
+ 
+* npm install express
+* npm install mysql2
+* npm install nodemon
+* npm install dotenv
+* npm install cors
 
-MySQL
-Express
-Node.js
-Thunder Client
+Rutas
+
+Categorias
+
+1. /api/v1/categorys/
+2. /api/v1/categorys/:id
 
 
-dependencias instaladas 
-   npm install express
-   npm install mysql2
-   npm install nodemon
-
-
-rutas 
-
-/api/v1/category/
-/api/v1/category/products/
-/api/v1/category/products/:id 
-
-/api/v1/product/
-/api/v1/product/:id
-
+Productos
+ 
+1. /api/v1/product/
+2. /api/v1/product/:id
 
 
