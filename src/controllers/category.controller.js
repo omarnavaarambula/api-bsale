@@ -11,7 +11,7 @@ export const getCategorys = async (req, res) => {
 export const getCategory = async (req, res) => {
     const [rows] = await pool.query ("SELECT * FROM product WHERE category = ?" , [req.params.id])
     if (rows.length <= [0]) 
-    return res.status(404).json({message: 'category dont found'})
+    return res.status(404).json({message: 'error 404 category not found :`('})
     res.json(rows)
 };
 
